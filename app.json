@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "ssRnApp",
-    "slug": "ssRnApp",
+    "name": "ssrnapp",
+    "slug": "ssrnapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "rnFintech",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -13,7 +13,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
       }
     },
@@ -28,9 +28,24 @@
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "resizeMode": "cover",
+          "backgroundColor": "#ffffff",
+          "enableFullScreenImage_legacy": true
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/variable/Inter-Italic-VariableFont_opsz,wght.ttf",
+            "./assets/fonts/variable/Inter-VariableFont_opsz,wght.ttf",
+            "./assets/fonts/static/Inter-SemiBoldItalic.ttf",
+            "./assets/fonts/static/Inter-SemiBold.ttf",
+            "./assets/fonts/static/Inter-Regular.ttf",
+            "./assets/fonts/static/Inter-MediumItalic.ttf",
+            "./assets/fonts/static/Inter-Medium.ttf",
+            "./assets/fonts/static/Inter-Italic.ttf"
+          ]
         }
       ]
     ],
