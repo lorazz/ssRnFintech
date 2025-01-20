@@ -14,6 +14,7 @@ export default function RootLayout() {
     "Inter-MediumItalic": require('../assets/fonts/static/Inter-MediumItalic.ttf'),
     "Inter-SemiBold": require('../assets/fonts/static/Inter-SemiBold.ttf'),
     "Inter-SemiBoldItalic": require('../assets/fonts/static/Inter-SemiBoldItalic.ttf'),
+    "SpaceMono-Regular": require('../assets/fonts/SpaceMono-Regular.ttf'),
   })
 
   useEffect(()=> {

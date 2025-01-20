@@ -11,6 +11,15 @@ import { Alert } from 'react-native';
 import { useGlobalContext } from '@/lib/global-provider';
 import { Redirect } from 'expo-router';
 
+// import { Client, Account, ID } from 'react-native-appwrite';
+
+//      const client = new Client()
+//          .setProject('678a887e0025f747a2a3')
+//          .setPlatform('com.ss.fintech');
+
+// const client = new Client();
+//  client.setProject('678a887e0025f747a2a3');
+
 const SignIn = () => {
     const { refetch, loading, isLoggedIn } = useGlobalContext();
 
