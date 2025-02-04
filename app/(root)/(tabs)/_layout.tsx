@@ -1,6 +1,7 @@
 import { View, Text, Image } from 'react-native'
 import React from 'react'
 import { Tabs } from 'expo-router'
+import { TextRN } from '~/components/ui/text'
 
 import icons from '@/constants/icons'
 
@@ -10,10 +11,10 @@ const TabIcon = ({ focused, icon, title }: { focused: boolean; icon: any; title:
             source={icon} 
             tintColor={focused ? '#000000' : '#888888'} resizeMode="contain" 
             className="size-6" />
-        <Text 
+        <TextRN
             className={`${focused ? 'text-primary-300 font-inter-medium' : 'text-black-200 font-inter'} text-xs w-full text-center mt-1`}>
             {title}
-        </Text>
+        </TextRN>
     </View>
 )
 
@@ -62,7 +63,6 @@ const TabsLayout = () => {
                 )
             }}
         />
-      <Text>TabsLayout</Text>
     </Tabs>
   )
 }
